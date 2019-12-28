@@ -6,6 +6,10 @@ hr {
   border: 1px solid black;
 }
 
+table {
+  border: 1px solid black;
+}
+
 body {
   background-image: url("../images/white_wave/white_wave.png");
   background-repeat: repeat;
