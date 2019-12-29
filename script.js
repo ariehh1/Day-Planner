@@ -2,5 +2,7 @@
 // var dt = new Date();
 // document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
 
-var moment = require("moment");
-moment().format("LLLL");
+//moment.js current date and time
+var format = "MMMM Do YYYY, h:mm:ss a";
+var result = moment().format(format);
+console.log(result);
