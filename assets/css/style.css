@@ -47,6 +47,10 @@ header {
   font-size: 20px;
 }
 
+.form-control {
+  width: 925px;
+}
+
 .mr-auto {
   display: flex;
   justify-content: center;
