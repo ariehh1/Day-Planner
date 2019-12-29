@@ -51,6 +51,10 @@ header {
   width: 925px;
 }
 
+#save-button {
+  display: flex;
+  justify-content: center;
+}
 .mr-auto {
   display: flex;
   justify-content: center;
