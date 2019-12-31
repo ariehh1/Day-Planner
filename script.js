@@ -8,11 +8,19 @@ $(document).ready(function() {
       .parent()
       .parent()
       .children("td")
-      .find("input")
-      .val();
-    console.log("clicked button");
-    console.log(inputValue);
+      .find("input");
+
+    var time = $(this)
+      .parent()
+      .parent()
+      .children("td")[0]
+      .innerHTML.split(":")[0];
+    // console.log(time);
+    localStorage.setItem(time, inputValue.val());
+    // console.log(localStorage.getItem(time));
   });
+  console.log(localStorage.getItem("9"));
+  $("input#9").val(localStorage.getItem("9"));
 });
 
 // //moment.js current date and time
