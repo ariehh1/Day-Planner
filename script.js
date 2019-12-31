@@ -21,6 +21,22 @@ $(document).ready(function() {
   });
   console.log(localStorage.getItem("9"));
   $("input#9").val(localStorage.getItem("9"));
+  console.log(localStorage.getItem("10"));
+  $("input#10").val(localStorage.getItem("10"));
+  console.log(localStorage.getItem("11"));
+  $("input#11").val(localStorage.getItem("11"));
+  console.log(localStorage.getItem("12"));
+  $("input#12").val(localStorage.getItem("12"));
+  console.log(localStorage.getItem("1"));
+  $("input#1").val(localStorage.getItem("1"));
+  console.log(localStorage.getItem("2"));
+  $("input#2").val(localStorage.getItem("2"));
+  console.log(localStorage.getItem("3"));
+  $("input#3").val(localStorage.getItem("3"));
+  console.log(localStorage.getItem("4"));
+  $("input#4").val(localStorage.getItem("4"));
+  console.log(localStorage.getItem("5"));
+  $("input#5").val(localStorage.getItem("5"));
 });
 
 // //moment.js current date and time
