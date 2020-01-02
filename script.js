@@ -39,10 +39,13 @@ $(document).ready(function() {
   $("input#5").val(localStorage.getItem("5"));
 });
 
-// //moment.js current date and time
-// var format = "MMMM Do YYYY, h:mm:ss a";
-// var result = moment().format(format);
-// console.log(result);
+//moment.js current date and time
+var NowMoment = moment();
+var eDisplayMoment = document.getElementById("displayMoment");
+eDisplayMoment.innerHTML = NowMoment;
+var format = "MMMM Do YYYY, h:mm:ss a";
+var result = moment().format(format);
+console.log(result);
 
 // //moment.js past time
 // var format = "";
@@ -62,6 +65,3 @@ $(document).ready(function() {
 // var hours = [
 //   "9:00am, 10:00am, 11:00am, 12,00pm, 1:00pm, 2:00pm, 3:00pm, 4:00pm, 5:00pm"
 // ];
-
-// //when user clicks save
-// $onclick(save);
