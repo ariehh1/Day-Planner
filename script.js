@@ -40,12 +40,12 @@ $(document).ready(function() {
 });
 
 //moment.js current date and time
-var NowMoment = moment();
+var NowMoment = moment().format("MMMM Do YYYY, h:mm:ss a");
 var eDisplayMoment = document.getElementById("displayMoment");
 eDisplayMoment.innerHTML = NowMoment;
-var format = "MMMM Do YYYY, h:mm:ss a";
-var result = moment().format(format);
-console.log(result);
+// var format = "MMMM Do YYYY, h:mm:ss a";
+// var result = moment().format(format);
+// console.log(result);
 
 // //moment.js past time
 // var format = "";
