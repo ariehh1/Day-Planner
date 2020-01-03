@@ -40,12 +40,40 @@ $(document).ready(function() {
 });
 
 //moment.js current date and time
-var NowMoment = moment().format("MMMM Do YYYY, h:mm:ss a");
+var NowMoment = moment().format("LLLL");
 var eDisplayMoment = document.getElementById("displayMoment");
 eDisplayMoment.innerHTML = NowMoment;
 // var format = "MMMM Do YYYY, h:mm:ss a";
 // var result = moment().format(format);
 // console.log(result);
+
+// var currentTime = moment().hour();
+// console.log(currentTime);
+
+function timeslotColor() {
+  var currentTime = moment().hour();
+  console.log(currentTime);
+  var inputArray = $("input");
+  console.log($("input"));
+  inputArray.each(function() {
+    //   for (var i = 0; i < inputArray.length; i++) {
+    var timeSlotNumber = parseInt($(this).attr("data-time"));
+    if (timeSlotNumber < currentTime) {
+      $(this).css("background-color", "red");
+    }
+  });
+}
+
+timeslotColor();
+
+// if (parseInt($("#9").attr("data-time")) < currentTime) {
+//   $("#9").css("background-color", "red");
+//   console.log("timepast");
+// }
+// if (parseInt($("#10").attr("data-time")) < currentTime) {
+//   $("#10").css("background-color", "red");
+//   console.log("timepast");
+// }
 
 // //moment.js past time
 // var format = "";
