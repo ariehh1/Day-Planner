@@ -59,7 +59,7 @@ function timeslotColor() {
     //   for (var i = 0; i < inputArray.length; i++) {
     var timeSlotNumber = parseInt($(this).attr("data-time"));
     if (timeSlotNumber < currentTime) {
-      $(this).css("background-color", "red");
+      $(this).css("background-color", "lightgrey");
     }
   });
 }
