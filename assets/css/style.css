@@ -47,10 +47,6 @@ header {
   font-size: 20px;
 }
 
-.form-control {
-  width: 925px;
-}
-
 #save-button {
   display: flex;
   justify-content: center;

@@ -68,41 +68,4 @@ function timeslotColor() {
   });
 }
 
-// current time
-// var currentTime = moment().hour();
-// var timeSlotNumber = parseInt($(this).attr("data-time"));
-// if (timeSlotNumber === currentTime) {
-//   $(this).css("background-color", "red");
-// }
-
-// //  future time
-// var currentTime = moment().hour();
-// var timeSlotNumber = parseInt($(this).attr("data-time"));
-// if (timeSlotNumber > currentTime) {
-//   $(this).css("background-color", "lightgreen");
-// }
-
 timeslotColor();
-
-// if (parseInt($("#9").attr("data-time")) < currentTime) {
-//   $("#9").css("background-color", "red");
-//   console.log("timepast");
-// }
-// if (parseInt($("#10").attr("data-time")) < currentTime) {
-//   $("#10").css("background-color", "red");
-//   console.log("timepast");
-// }
-
-// //moment.js past time
-// var format = "";
-// var result = moment()
-//   .startOf("hour")
-//   .fromNow();
-// console.log(result);
-
-// //moment.js future time
-// var format = "";
-// var result = moment()
-//   .endOf("day")
-//   .fromNow();
-// console.log(result);
