@@ -51,7 +51,7 @@ eDisplayMoment.innerHTML = NowMoment;
 // console.log(currentTime);
 
 function timeslotColor() {
-  var currentTime = moment().hour();
+  var currentTime = parseInt(moment().hour());
   console.log(currentTime);
   var inputArray = $("input");
   console.log($("input"));
@@ -60,23 +60,27 @@ function timeslotColor() {
     var timeSlotNumber = parseInt($(this).attr("data-time"));
     if (timeSlotNumber < currentTime) {
       $(this).css("background-color", "lightgrey");
+    } else if (timeSlotNumber === currentTime) {
+      $(this).css("background-color", "red");
+    } else if (timeSlotNumber > currentTime) {
+      $(this).css("background-color", "lightgreen");
     }
   });
 }
 
 // current time
-var currentTime = moment().hour();
-var timeSlotNumber = parseInt($(this).attr("data-time"));
-if (timeSlotNumber === currentTime) {
-  $(this).css("background-color", "red");
-}
+// var currentTime = moment().hour();
+// var timeSlotNumber = parseInt($(this).attr("data-time"));
+// if (timeSlotNumber === currentTime) {
+//   $(this).css("background-color", "red");
+// }
 
-//  future time
-var currentTime = moment().hour();
-var timeSlotNumber = parseInt($(this).attr("data-time"));
-if (timeSlotNumber > currentTime) {
-  $(this).css("background-color", "lightgreen");
-}
+// //  future time
+// var currentTime = moment().hour();
+// var timeSlotNumber = parseInt($(this).attr("data-time"));
+// if (timeSlotNumber > currentTime) {
+//   $(this).css("background-color", "lightgreen");
+// }
 
 timeslotColor();
 
