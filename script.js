@@ -60,9 +60,11 @@ function timeslotColor() {
     var timeSlotNumber = parseInt($(this).attr("data-time"));
     if (timeSlotNumber < currentTime) {
       $(this).css("background-color", "lightgrey");
+      if ((timeSlotNumber = currentTime)) {
+        $(this).css("background-color", "red");
     }
-  });
-}
+  }
+});
 
 timeslotColor();
 
