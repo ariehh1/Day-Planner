@@ -36,10 +36,10 @@ header {
   justify-content: center;
 }
 
-.scheduler-explained {
+/* .scheduler-explained {
   display: flex;
   justify-content: center;
-}
+} */
 
 .the-date {
   display: flex;
@@ -51,6 +51,7 @@ header {
   display: flex;
   justify-content: center;
 }
+
 .mr-auto {
   display: flex;
   justify-content: center;

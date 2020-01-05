@@ -1,7 +1,3 @@
-// //current date variable
-// var dt = new Date();
-// document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
-
 $(document).ready(function() {
   $(".save-button").click(function() {
     var inputValue = $(this)
