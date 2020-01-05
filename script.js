@@ -11,9 +11,7 @@ $(document).ready(function() {
       .parent()
       .children("td")[0]
       .innerHTML.split(":")[0];
-    // console.log(time);
     localStorage.setItem(time, inputValue.val());
-    // console.log(localStorage.getItem(time));
   });
   console.log(localStorage.getItem("9"));
   $("input#9").val(localStorage.getItem("9"));
@@ -39,12 +37,6 @@ $(document).ready(function() {
 var NowMoment = moment().format("LLLL");
 var eDisplayMoment = document.getElementById("displayMoment");
 eDisplayMoment.innerHTML = NowMoment;
-// var format = "MMMM Do YYYY, h:mm:ss a";
-// var result = moment().format(format);
-// console.log(result);
-
-// var currentTime = moment().hour();
-// console.log(currentTime);
 
 function timeslotColor() {
   var currentTime = parseInt(moment().hour());
@@ -52,7 +44,6 @@ function timeslotColor() {
   var inputArray = $("input");
   console.log($("input"));
   inputArray.each(function() {
-    //   for (var i = 0; i < inputArray.length; i++) {
     var timeSlotNumber = parseInt($(this).attr("data-time"));
     if (timeSlotNumber < currentTime) {
       $(this).css("background-color", "lightgrey");
