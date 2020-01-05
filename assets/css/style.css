@@ -36,11 +36,6 @@ header {
   justify-content: center;
 }
 
-/* .scheduler-explained {
-  display: flex;
-  justify-content: center;
-} */
-
 .the-date {
   display: flex;
   justify-content: center;
@@ -48,11 +43,6 @@ header {
 }
 
 #save-button {
-  display: flex;
-  justify-content: center;
-}
-
-.mr-auto {
   display: flex;
   justify-content: center;
 }
