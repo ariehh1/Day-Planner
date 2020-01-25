@@ -5,7 +5,9 @@ In this repository, I have created a day planner where a user can input tasks, a
 This daily planner allows the user to glance at their work day, make adjustments that come up, and increase productivity. In not utilizing a daily planner, meetings, appointments, reminders, etc. could be missed throughout a given day. In creating this daily planner, I thought back to when I first purchased a planner to schedule my day, week, and plan for the month ahead.
 
 References:
-https://getbootstrap.com/docs/4.4/getting-started/introduction/||https://www.w3schools.com/||https://jquery.com/||
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+- [w3schools](https://www.w3schools.com/)
+- [Jquery](https://jquery.com/)
 
 Screenshot:
 ![image](https://user-images.githubusercontent.com/57271161/71775438-10834800-2f36-11ea-8d34-e14e5254916f.png)
