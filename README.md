@@ -9,5 +9,8 @@ References:
 - [w3schools](https://www.w3schools.com/)
 - [Jquery](https://jquery.com/)
 
+Contact:
+[@ariehh1](https://github.com/ariehh1)
+
 Screenshot:
 ![image](https://user-images.githubusercontent.com/57271161/71775438-10834800-2f36-11ea-8d34-e14e5254916f.png)
